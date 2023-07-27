@@ -10,7 +10,7 @@ background-color: rgb(128, 166, 166);
 }
 #inputField{
     width: 300px;
-    height: 4vh;
+    height: 25px;
     border: 1px solid rgb(137, 115, 115);
     outline: none;
     font-size: 25px;
@@ -41,7 +41,7 @@ background-color: rgb(128, 166, 166);
 button{
     display: flex;
     width: 75px;
-    height: 4.5vh;
+    height: 25px;
     position: relative;
     left: 20rem;
     top: -1.8rem;
@@ -54,9 +54,4 @@ button:hover{
     box-shadow: 5px 5px 2px 2px;
 }
 
-@media screen and (max-width: 768px){
 
-    .container {
-        width: 50px;
-    }
-}
